@@ -16,6 +16,9 @@
   margin: 0;
   padding: 0;
 }
+ul {
+  list-style: none;
+}
 .core {
   font-family: var(--font-primary);
   color: var(--text-color-primary);
@@ -112,7 +115,7 @@
   background-color: var(--background-color-tertiary);
   background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 80%),
     url(../images/overlay.jpg);
-  font-style: normal;
+
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -120,7 +123,6 @@
 }
 .background4 {
   background-color: var(--background-color-tertiary);
-  font-style: normal;
 }
 .background3 {
   background-color: var(--background-color-primary);
@@ -135,6 +137,7 @@
   border: none;
   letter-spacing: 0.06em;
   padding: 10px 41px 10px 42px;
+  border-radius: 4px;
 }
 .button2 {
   color: var(--text-color-primary);
@@ -148,6 +151,7 @@
   letter-spacing: 0.03em;
   margin-right: 52px;
   padding: 6px 22px;
+  border-radius: 4px;
 }
 .button2:hover,
 .button2:focus {
@@ -171,28 +175,22 @@
   letter-spacing: 0.03em;
 }
 .list {
-  list-style: none;
   display: flex;
   justify-content: space-between;
 }
-.list2 {
-  list-style: none;
-}
+
 .list3 {
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 30px;
 }
 .list4 {
-  list-style: none;
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
 }
 .list5 {
-  list-style: none;
   display: flex;
   gap: 70px;
 }
