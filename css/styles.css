@@ -24,6 +24,7 @@ ul {
   color: var(--text-color-primary);
 }
 .headline {
+  position: relative;
   color: var(--text-color-primary);
   font-weight: 500;
   text-decoration: none;
@@ -31,6 +32,20 @@ ul {
   line-height: 1.17;
   margin-right: 46px;
   letter-spacing: 0.02em;
+}
+.is-active {
+  color: #2196f3;
+}
+
+.is-active::after {
+  position: absolute;
+  content: '';
+  background: var(--background-color-quaternary);
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  top: 52px;
+  left: 0;
 }
 
 .link2:hover,
@@ -399,17 +414,4 @@ ul {
   position: relative;
   background-color: #fff;
   z-index: 1;
-}
-.current-site .headline {
-  color: var(--text-color-tertiary);
-}
-.current-site .headline::after {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 53px;
-  height: 4px;
-  border-radius: 2px;
-  background: var(--background-color-quaternary);
-  top: 53px;
 }
