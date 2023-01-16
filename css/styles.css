@@ -429,9 +429,8 @@ ul {
 }
 .modal .is-hidden {
   position: fixed;
-  overflow: hidden;
 }
-*.backdrop .modal {
+.backdrop {
   background: rgba(0, 0, 0, 0.2);
 }
 .close-button {
