@@ -421,13 +421,13 @@ ul {
   height: 581px;
   left: 536px;
   top: 221px;
-  background: #ffffff;
+  background: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  z-index: 4;
+  z-index: 6;
 }
-.modal .is-hidden {
+.is-hidden {
   display: none;
 }
 .modal-overley {
@@ -438,10 +438,9 @@ ul {
   top: 0px;
 
   background: rgba(0, 0, 0, 0.2);
+  z-index: 3;
 }
-.backdrop {
-  background: rgba(0, 0, 0, 0.2);
-}
+
 .close-button {
   cursor: pointer;
   position: absolute;
@@ -452,4 +451,5 @@ ul {
   height: 30px;
   top: 8px;
   left: 490px;
+  z-index: 7;
 }
