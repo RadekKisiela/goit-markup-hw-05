@@ -433,6 +433,7 @@ a {
 }
 .is-hidden {
   display: none;
+  visibility: hidden;
 }
 .modal-overley {
   display: flex;
